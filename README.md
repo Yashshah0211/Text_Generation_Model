@@ -10,9 +10,7 @@ This project trains a character-level language model using an LSTM on the Tiny S
 - Output: Next predicted character
 
 ##  Usage
-1. Train the model using `train_model.py`
-2. Load weights and run inference with `generate_text.py`
-3. Adjust temperature and prompt for creative results
+All logic for training and text generation is contained in a single script — just run it to get started.
 
 ##  Requirements
 See `requirements.txt`
