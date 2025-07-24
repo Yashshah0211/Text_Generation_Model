@@ -1,2 +1,15 @@
 # Text_Generation_Model
-A character-level text generation model trained on Shakespeare’s works using LSTM in TensorFlow. Generates creative Shakespearean-style dialogue based on a user prompt.
+# 🧠 Shakespeare Text Generator (LSTM)
+
+This project trains a character-level language model using an LSTM on the Tiny Shakespeare dataset. Once trained, it can generate Shakespeare-style text one character at a time.
+
+## 🔧 How It Works
+- Dataset: Tiny Shakespeare (~100k characters)
+- Model: Embedding + LSTM + Dense
+- Input: 100-character sequences
+- Output: Next predicted character
+
+## 🚀 Usage
+1. Train the model using `train_model.py`
+2. Load weights and run inference with `generate_text.py`
+3. Adjust temperature and prompt for creative results
